@@ -3,7 +3,7 @@
 #include <iostream>
 #include "TileGame.h"
 using namespace std;
-
+//I moved all the function declarations into this file because of a phantom bug.
 TileGame::TileGame()
 {
     //Assign each item in the array to the value of the index
